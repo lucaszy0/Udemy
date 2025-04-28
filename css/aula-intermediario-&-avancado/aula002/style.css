@@ -1,0 +1,10 @@
+body{
+    color: red;
+}
+/*se um seletor for mais especifico a regra mais especifica sera aplicada*/
+*{
+    color: red;
+}
+h1{
+    color: blue;
+}

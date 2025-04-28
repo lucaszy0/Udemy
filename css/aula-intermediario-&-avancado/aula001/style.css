@@ -1,0 +1,15 @@
+*{
+    
+}
+/*li >a{
+    color: red;
+}
+li a{
+    color: red;
+}
+h1+p{
+    color: red;
+}*/
+h1 ~ p{
+    color: pink;
+}
