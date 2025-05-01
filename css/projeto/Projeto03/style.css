@@ -61,3 +61,35 @@ ul{
     color: white;
     cursor: text;
 }
+#conteudo{
+    margin-top: 60px;
+    background: #f5f5f5;
+}
+#primario{
+    width: 270px;
+    background: green;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+#secundario{
+    width: 270px;
+    margin: 0px 0px 20px 15px;
+    background: yellow;
+    float: left;
+}
+#lateral{
+    width: 180px;
+    margin: 0px 0px 20px -750px;
+    background: blue;
+    float: left;
+}
+#conteudo-rodape{
+    background: #295c71;
+    padding: 20px;
+    clear: both;
+}
+#rodape{
+    width: 750px;
+    margin: 0 auto;
+    color: white;
+}
