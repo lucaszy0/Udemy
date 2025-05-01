@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background:#fff url(imagens-necessarias-site-noticias-cidade/imagens/fundo.png) repeat-x;
+    
+}
+#container{
+    width: 770px;
+    margin: 0 auto;
+   
+}
+#topo{
+    height: 160px;
+    padding-top: 20px;
+    background: url(imagens-necessarias-site-noticias-cidade/imagens/detalhe-topo.png) no-repeat right top;
+    
+}
+.logo{
+    width: 152px;
+    height: 66px;
+    text-indent: -3000px;
+    background: url(imagens-necessarias-site-noticias-cidade/imagens/logo.png) no-repeat center;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#topo ul{
+    background: #b10333;
+    margin-top: 30px;
+    float: left;
+}
+#topo ul li{
+    float: left;
+}
+#topo ul a{
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    color: white;
+    border: 1px  solid ;
+    border-color: transparent transparent transparent rgb(131, 0, 0);
+}
+#topo ul .primeiro a{
+    border-color: transparent transparent transparent transparent;
+}
+#topo ul a:hover{
+    color: #69001d;
+}
+.home #navegacao #home,
+.brasil #navegacao  #brasil,
+.internacional #navegacao #navegacao,
+.fotos #navegacao #fotos
+{
+    background-color: #de003e;
+    color: white;
+    cursor: text;
+}
