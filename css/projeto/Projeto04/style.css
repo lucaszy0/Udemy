@@ -119,4 +119,44 @@ ul#navegacao a:hover{
 }
 #rodape{
     clear: both;
+    padding: 16px;
+    background: white url(imagens-necessarias-chale-hotel-criando-topo/imagens/bg-rodape.png) repeat-x top;
+    color: #7d7640;
 }
+h2{
+    color: #7d7640;
+    font-size: 1.1em;
+    padding: 5px 0px;
+}
+p{
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+#Beneficios li{
+    height: 100px;
+    padding: 8px;
+    height: 6em;
+    border-bottom: 1px solid #f3efcb;
+}
+#Beneficios li a img{
+    width: 120px;
+    float: left;
+    margin-right: 8px;
+}
+#Beneficios li:hover{
+    background: #f6f3d6;
+    cursor: pointer;
+}
+
+#Beneficios li a h3{
+    color: #614b2d;
+    font-size: 1em;
+    padding: 5px 0;
+    background: url(imagens-necessarias-chale-hotel-criando-topo/imagens/ornamento.png) no-repeat center right;
+}
+#Beneficios li a p{
+    color: black;
+       margin: 5px;
+       font-size: 0.8em;
+}
+
