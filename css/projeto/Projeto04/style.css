@@ -2,22 +2,23 @@
     margin: 0;
     padding: 0;
 }
-bodY{
+body{
     font-family: Arial, Helvetica, sans-serif;
     background: #fff ;
     margin: 15px;
 } 
-#container{
-    background: #ede9cc;
+#conteiner{
+    background: #ede9cc url(imagens-necessarias-chale-hotel-criando-topo/imagens/bg-container.png) top center repeat-y;
     margin: 0 auto;
     min-width: 740px;
+    max-width: 1180px;
 }
 #topo{
     position: relative;
     background: #dbcd87;
     height: 15.4em;
     min-width: 250px;
-    max-width: 1180px;
+
 
 }
 #logo{
@@ -39,7 +40,7 @@ bodY{
     height: 66px;
     text-indent: -9999px;
 }
-#menu{
+#area-menu{
     position: absolute;
     z-index: 1;
     top: 0;
@@ -74,4 +75,48 @@ a.reservas{
      color: #fff5b0;
      padding: 5px 10px;
      float: right;
+}
+#menu{
+    margin-top: 15px;
+}
+ul{
+    list-style: none;
+}
+ul#navegacao{
+    float: left;
+
+}
+ul#navegacao a{
+    text-transform: uppercase;
+    font-size: 0.8em;
+    padding: 5px;
+    color: #6e672c;
+    line-height: 30px;
+}
+ul#navegacao a:hover{
+    background: #fdf6be;
+}
+.depoimento{
+    width: 226px;
+    height: 164px;
+    float: right;
+}
+#area-principal{
+    padding: 15px 0px;
+       float: left;
+       width: 50%;
+       background: url(imagens-necessarias-chale-hotel-criando-topo/imagens/bg-area-principal.png) top left repeat-x;
+}
+#area-lateral{
+   padding: 20px 0px;
+    float: right;
+    width: 50%;
+    background: url(imagens-necessarias-chale-hotel-criando-topo/imagens/bg-area-lateral.png) top left repeat-x;
+}
+.conteudo{
+  margin: 0 auto;
+  width: 90%;
+}
+#rodape{
+    clear: both;
 }
