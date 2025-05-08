@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media-queries</title>
+   <link rel="stylesheet" media="screen" href="style.css">
+   <link rel="stylesheet" media="print" href="impressao.css">
+   <style>
+    @media (max-width:576px){
+        body{
+            background: red;
+        }
+        p{
+            color: white;
+            font-size: 20px;
+            text-align: center;
+        }
+    }
+    @media (min-width:590px){
+        body{
+            background-color: blue;
+        }
+    }
+    @media (min-width:1020px){
+        body{
+            background: blueviolet;
+        }
+    }
+
+   </style>
+</head>
+<body>
+  
+ <p>lorem impsum colorem sit amet</p>
+    
+</body>
+</html>
