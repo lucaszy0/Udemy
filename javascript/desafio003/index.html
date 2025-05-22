@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crie uma aplicação para efetuar o cálculo do índice de massa corporal.</title>
+</head>
+<body>
+    <script>
+        var nome = prompt('digite seu nome: ')
+        var altura = prompt('digite sua altura: ')
+        var peso =prompt('Digite seu peso: ')
+        altura = parseFloat(altura)
+        peso = parseFloat(peso)
+        altura /= 100
+        var m = peso / (altura * altura)
+        var classificado = null
+        if(m < 16){
+           document.write(' Baixo peso muito grave ')
+        }else if(m > 16 && m <= 16.99){
+            classificado = 'Baixo peso grave'
+        }else if(m > 17 && m <= 18.49){
+            classificado = 'baixo peso'
+        }else if(m > 18.50 && m <= 24.99){
+            classificado = 'Peso normal'
+        }else if(m > 25 && m <= 29.99){
+            classificado = 'sobrepeso'
+        }else if(m > 30 && m <= 34.99){
+            classificado = 'Obesidade grau 1'
+        }else if(m > 35 && m <= 39.99){
+            classificado = 'Obesidade grau 2'
+        }else{
+            classificado = 'Obesidade grau 3 '
+        }
+        document.write(nome +' Possui indice de massa corporal igual a ' + m + ' sendo classificado como: ' + classificado)
+        
+         
+    </script>
+</body>
+</html>
