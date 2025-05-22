@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escopo</title>
+</head>
+<body>
+    <script>
+        //3 escopos : global , funcao e o bloco
+        var serie = 'friends'
+        // escopo de bloco
+        if(true){
+            var serie2 = 'game of thrones'//escopo bloco : a variavel fica disponivel para os outros escopos 
+            document.write(serie)
+        }
+        document.write(serie2)
+        document.write('<br/>')
+        function x(){
+            var serie3 = 'the walking dead'//a variavel nao fica disponivel para os outros escopos 
+            document.write(serie)
+            document.write(serie2)
+        }
+         document.write('<br/>')
+         document.write(serie3)
+       
+    </script>
+</body>
+</html>
