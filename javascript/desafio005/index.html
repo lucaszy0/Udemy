@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio input de evento</title>
+</head>
+<body>
+    <input type="text" onfocus="Focar()" onblur="PerdeFoco()" id="valor">
+    <script>
+        function Focar(){
+           document.getElementById('valor').style.background = 'yellow'
+           
+        }
+        function PerdeFoco(){
+          var valor = document.getElementById('valor').value
+          
+          if(valor.length < 3){
+            document.getElementById('valor').style.background = 'red'
+          }else{
+            document.getElementById('valor').style.background = 'green'
+          }
+        }
+    </script>
+</body>
+</html>
