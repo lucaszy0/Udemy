@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aplicacao web</title>
+</head>
+<body>
+    <input type="text" name="" id="valor" placeholder="Cadeira">
+    <button onclick="adicionar()">Adicionar</button>
+    <button onclick="ordenar()">Ordenar</button>
+    <script>
+        //declarando um array com o nome objetos
+        var objetos = Array('Cadeira', 'Impressora', 'Garfo')
+        //funcao para adicionar o valor que o usuario digitar no input e amazenar no array objetos
+        function adicionar(){
+            valor = document.getElementById('valor').value
+            if(valor == ''){
+                document.write('informe um valor valido')
+            }else{
+                if(valor == 'Cadeira' || valor == 'Impressora' || valor == 'Garfo'){
+                    document.write('Objeto ja foi adicionado')
+                }else{
+                    objetos.push(valor)
+                    console.log(valor)
+                    document.getElementById('valor').value = ''
+                }
+            }
+        }
+        //quando o usuario clicar em ordenar o sort() vai ordenar em ordem alfabetica os valores dentro do array incluindo o digitado pelo usuario
+        function ordenar(){
+            objetos.sort()
+            console.log(objetos)
+        }
+        
+    </script>
+</body>
+</html>
