@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For in</title>
+</head>
+<body>
+    <script>
+        //var listaConvidados = ['jorge' , 'jamilton', 'jose', 'ana', 'maria']
+        var listaConvidados = Array()
+        listaConvidados['a'] = 'jorge'
+        listaConvidados[10] = 'jamilton'
+        listaConvidados['zebra'] = 'jose'
+        listaConvidados[-1] = 'ana'
+        listaConvidados[true] = 'maria'
+        console.log(listaConvidados)
+        for( var x in listaConvidados){
+          console.log('indice ' + x + ' valor ' + listaConvidados[x])
+        }
+    </script>
+</body>
+</html>
