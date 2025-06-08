@@ -7,8 +7,15 @@
 </head>
 <body>
     <script>
-        var listaFuncionarios = [ 'Viviane', 'Rosangela','Miguel', 'lucas', 'Fernanda']
-        console.log(listaFuncionarios)
+        var listaFuncionarios = Array()
+        listaFuncionarios['x'] = 'Viviane'
+        listaFuncionarios[false] = 'Rosangela'
+        listaFuncionarios[3] = 'Lucas'
+        var f= function (valor , indice){
+            console.log(valor , indice)
+        }
+        listaFuncionarios.forEach(f)
+        /*console.log(listaFuncionarios)
         document.write(listaFuncionarios[3])
         listaFuncionarios.forEach( function( valor , indice, array){
             //logica
@@ -19,7 +26,7 @@
             console.log(listaFuncionarios)
         })
         
-            document.write('<br />'+ listaFuncionarios[3])
+            document.write('<br />'+ listaFuncionarios[3])*/
     </script>
 </body>
 </html>
