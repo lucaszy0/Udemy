@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com parametros variaveis</title>
+</head>
+<body>
+    <script>
+        function soma(){
+            var resultado = 0
+            for ( var i in arguments){
+               resultado += arguments[i]
+            }
+            return resultado
+        }
+        console.log(soma(7,5,3.2 , ' resultado'))
+    </script>
+</body>
+</html>
