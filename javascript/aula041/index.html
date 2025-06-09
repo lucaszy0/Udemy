@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tratamento de erros try , catch , throw e finally</title>
+</head>
+<body>
+    <script>
+        //netflix
+        var video = Array()
+        video[1] = Array()
+        video[1]['nome'] = 'Fullmetal alchemist'
+        video[1]['categoria'] = 'Anime'
+        function getVideo(video){
+            //logica
+            //http
+            try{
+                console.log(video[0]['nome'])
+            }catch(e){
+                console.log(e)
+                throw new Error('teve um erro mais ja estamos trabalhando nisso')
+                console.log('Agora sim podemos tratar esse erro')
+            }
+            finally{
+                console.log('Sempre passa por aqui (try  catch)')
+            }
+            console.log('A aplicacao nao morreu')
+            function tratarErro(e){
+                console.log(e)
+            }
+            
+            
+
+        }
+        getVideo(video)
+    </script>
+</body>
+</html>
