@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOM - window</title>
+</head>
+<body>
+    <button onclick="abrirPopUp()">Abrir janela</button>
+    <button onclick="fecharPopUp()">fechar janela</button>
+    <script>
+        var janela 
+        function abrirPopUp(){
+            janela = window.open('https://www.chess.com/game/live/74725428160A')
+        }
+        function fecharPopUp(){
+                janela.close()
+        }
+    </script>
+</body>
+</html>
